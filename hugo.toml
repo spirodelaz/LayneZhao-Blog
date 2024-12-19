@@ -1,0 +1,88 @@
+baseURL = 'https://example.org/'
+theme = "DoIt"
+title = "LayneZhao Blog"
+
+languageCode = 'en-us'
+defaultContentLanguage = "en"
+
+[params]
+  # DoIt 更改 | 0.2.0 DoIt 主题版本
+  version = "0.3.X"
+  # 网站名称
+  title = "LayneZhao Blog"
+  # 网站描述
+  description = "This is LayneZhao's Blog"
+  # 网站关键词
+  keywords = ["Theme", "Hugo"]
+  # DoIt 更改 | 0.2.11 网站默认主题样式 ("light", "dark", "black", "auto")
+  defaultTheme = "light"
+  # 作者配置
+  [params.author]
+    name = "LayneZhao"
+    email = "758217673@qq.com"
+  # DoIt 更改 | 0.2.0 文章页面配置
+  [params.page]
+    # DoIt 更改 | 0.2.0 评论系统设置
+    [params.page.comment]
+      enable = true
+      # DoIt 新增 | 0.2.13 giscus 评论系统设置
+      [params.page.comment.giscus]
+        enable = false
+        # owner/repo
+        dataRepo = "zhyine/zhyine.github.io"
+        dataRepoId = "R_kgDOMNWCNw"
+        dataCategory = "Announcements"
+        dataCategoryId = "DIC_kwDOMNWCN84CgcNo"
+        dataMapping = "pathname"
+        dataReactionsEnabled = "1"
+        dataEmitMetadata = "0"
+        dataInputPosition = "bottom"
+        lightTheme = "light"
+        darkTheme = "dark"
+        dataLang = "en"
+        dataLoading = "lazy"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+    pre = ""
+    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+    weight = 4
+
+# 用于分类的设置
+[taxonomies]
+  author = "authors"
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
