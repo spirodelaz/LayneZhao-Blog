@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 theme = "DoIt"
-title = "LayneZhao Blog"
+title = "Spirodelaz's Blog"
 
 languageCode = 'en-us'
 defaultContentLanguage = "en"
@@ -9,9 +9,9 @@ defaultContentLanguage = "en"
   # DoIt 更改 | 0.2.0 DoIt 主题版本
   version = "0.3.X"
   # 网站名称
-  title = "LayneZhao Blog"
+  title = "Spirodelaz's Blog"
   # 网站描述
-  description = "This is LayneZhao's Blog"
+  description = "This is Spirodelaz's Blog"
   # 网站关键词
   keywords = ["Theme", "Hugo"]
   # DoIt 更改 | 0.2.11 网站默认主题样式 ("light", "dark", "black", "auto")
@@ -28,7 +28,7 @@ defaultContentLanguage = "en"
   srcsetLargeResizeMethod = "2000x webp Lanczos q75"
   # 作者配置
   [params.author]
-    name = "LayneZhao"
+    name = "Spirodelaz"
     email = "758217673@qq.com"
 
   # DoIt 新增 | 0.2.0 搜索配置
